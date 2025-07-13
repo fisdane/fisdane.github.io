@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Fisdane</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisdane | Coming Soon - Something Amazing is on the Way</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>We will be back soon</h1>
+    <div class="background-animation"></div>
+    
+    <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <div class="container">
+        <div class="logo">Fisdane</div>
+        
+        <h1 class="main-title">COMING SOON</h1>
+        
+        <p class="subtitle">Something amazing is on the way. Stay tuned!</p>
+        
+        <div class="countdown">
+            <div class="countdown-item">
+                <span class="countdown-number" id="days">00</span>
+                <span class="countdown-label">Days</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number" id="hours">00</span>
+                <span class="countdown-label">Hours</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number" id="minutes">00</span>
+                <span class="countdown-label">Minutes</span>
+            </div>
+            <div class="countdown-item">
+                <span class="countdown-number" id="seconds">00</span>
+                <span class="countdown-label">Seconds</span>
+            </div>
+        </div>
+        
+        <div class="notification-form">
+            <input type="email" class="email-input" placeholder="Enter your email address" id="emailInput">
+            <button class="notify-btn" onclick="subscribeEmail()">Notify Me</button>
+        </div>
+        
+        <div class="social-links">
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">🐦</a>
+            <a href="#" class="social-link">📷</a>
+            <a href="#" class="social-link">💼</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
